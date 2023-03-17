@@ -1,0 +1,106 @@
+.tabbed-first-line {
+	text-indent: 40px;
+  	margin: 4px 0;
+}
+.text-signature {
+	text-indent: 40px;
+  	margin: 15px 0;
+}
+.centro-bold {
+  	text-align: center;
+    font-weight: bold;
+	color: #8B0000;
+}
+.centered-header {
+	display: block;
+	margin: 0 auto;
+	width: 250px;
+}
+.subtitulo-bold {
+  	text-align: center;
+    font-weight: bold;
+}
+.assinatura-direita {
+  	text-align: right;
+}
+.assinatura-centro {
+  	text-align: center;
+}
+.vertical-img {
+	display: block;
+	margin: 0 auto;
+	width: 450px;
+	height: 650px;
+}
+.centered-mock {
+	display: block;
+	margin: 30 auto;
+	width: 650px;
+}
+.assunto-noticia{
+	color: #8B0000;
+    font-weight: bold;
+}
+.diaconos{
+	margin: 1 auto;
+}
+
+h2{
+  	text-align: center;
+	color: #8B0000;
+}
+header img {
+	display: block;
+	width: 200px;
+	height: auto;
+}
+ul {
+  list-style-type: circle;
+}
+li {
+  margin-bottom: 3px;
+}
+
+.column {
+  float: left;
+  width: 45%;
+  padding: .3%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid #8B0000;
+  padding: 8px;
+  text-align: left;
+  border-left: none;
+  border-right: none;
+}
+
+th {
+  background-color: #8B0000;
+  color: white;
+
+}
+tbody tr:nth-child(even) {
+  background-color: white;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: white;
+}
+
+tbody tr:not(:last-child) {
+  border-bottom: 1px solid #8B0000;
+}
