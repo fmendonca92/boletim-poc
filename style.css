@@ -34,7 +34,7 @@
 }
 .centered-mock {
 	display: block;
-	margin: 30 auto;
+	margin: auto;
 	width: 650px;
 }
 .assunto-noticia{
